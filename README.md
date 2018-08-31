@@ -10,7 +10,8 @@ A Circular image with progress indication around. This control can be used for s
 
 a) Add control in the xml layout
 
-```<com.lajesh.circularprogressview.ImageProgressView
+```
+<com.lajesh.circularprogressview.ImageProgressView
             android:id="@+id/progressImageView"
             android:layout_width="80dp"
             android:layout_height="80dp"
@@ -27,8 +28,9 @@ a) Add control in the xml layout
             app:draw_anticlockwise="false"
             app:progress_color="#fc550e"
             app:progress_startAngle="-90"
-            app:progressvalue="0" />```
-        
+            app:progressvalue="0" />
+  
+  ```
             
  You can configure almost all the properties from xml, like the progress ring color, the default profile image,
  initial progress value, progress border width, etc.
