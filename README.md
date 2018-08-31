@@ -37,7 +37,9 @@ a) Add control in the xml layout
  
  b) Set the imageurl and progress in code.
  
- ```progressView = (ImageProgressView) findViewById(R.id.progressImageView);
-        progressView.setIconUrl("");
-        progressView.setValue(85.0f);
-        ```
+ ```
+ progressView = (ImageProgressView) findViewById(R.id.progressImageView);
+ progressView.setIconUrl("");
+ progressView.setValue(85.0f);
+ 
+ ```
